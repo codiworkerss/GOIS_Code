@@ -1,34 +1,14 @@
 [MIT License](LICENSE) -All rights reserved to the author. This project may be used for study and educational purposes, but **redistribution, redevelopment, or use of the code for personal or commercial purposes is strictly prohibited without the author's written consent.
-
-🎥 [Watch Live Demo (YouTube)](https://youtu.be/ukWUfXBFZ5I) | 🎥 [Watch Live Demo (Bilibili)](https://www.bilibili.com/video/BV1sLKjebEQK/?vd_source=f4edde9395a4d640571ae4487880e1ce)  
+ 
 ## 🚀 Enhancing Tiny Object Detection Using Guided Object Inference Slicing (GOIS): An Efficient Dynamic Adaptive Framework for Fine-Tuned and Non-Fine-Tuned Deep Learning Models
-**Guided-Object Inference Slicing (GOIS) Innovatory Framework with Several Open source code Deployed on Google Colab/Gradio Live/Huggingface**  
-🔬 Research by: Muhammad Muzammul, Xuewei Li, Xi Li  
-📄 Published in *Neurocomputing* Journal-> https://doi.org/10.1016/j.neucom.2025.130327
-**Contact**: muzamal@zju.edu.cn 
+**Guided-Object Inference Slicing (GOIS) Innovatory Framework with Several Open source code Deployed on Google Colab/Gradio Live/Huggingface**    
+📄 Published in *Neurocomputing* Journal
 
-### 📌 Citation
-```bash
-@article{MUZAMMUL2025130327,
-title = {Enhancing Tiny Object Detection Using Guided Object Inference Slicing (GOIS): An efficient dynamic adaptive framework for fine-tuned and non-fine-tuned deep learning models},
-journal = {Neurocomputing},
-volume = {640},
-pages = {130327},
-year = {2025},
-issn = {0925-2312},
-doi = {https://doi.org/10.1016/j.neucom.2025.130327},
-url = {https://www.sciencedirect.com/science/article/pii/S0925231225009993},
-author = {Muhammad Muzammul and Xuewei Li and Xi Li},
-keywords = {Tiny Object Detection, Guided Object Inference Slicing (GOIS), Adaptive slicing-based detection, UAV-based real-time inference, High-resolution remote sensing imagery, Computationally efficient object detection, Deep learning for small-object recognition, Non-maximum suppression optimization, Transformer-based object detection},
-abstract = {Tiny Object Detection (TOD) in UAV and standard imaging remains challenging due to extreme scale variations, occlusion, and cluttered backgrounds. This paper presents the Dynamic Adaptive Guided Object Inference Slicing (GOIS) framework, a two-stage adaptive slicing strategy that dynamically reallocates computational resources to Regions of Interest (ROIs), enhancing detection precision and recall. Unlike static and semi-adaptive slicing methods like SAHI and ASAHI, evaluated with models such as FNet, TOOD, and TPH-YOLO, GOIS leverages VisDrone and xView datasets to optimize hierarchical slicing and dynamic Non-Maximum Suppression (NMS), improving tiny object detection while reducing boundary artifacts and false positives. Comprehensive experiments using MS COCO-pretrained Ultralytics models under fine-tuning and non-fine-tuning conditions validate its effectiveness. Evaluations across YOLO11, RT-DETR-L, YOLOv8s-WorldV2, YOLOv10, YOLOv8, and YOLOv5 demonstrate that GOIS consistently outperforms Full-Image Inference (FI-Det), achieving up to 3-4× improvements in small-object recall. On the VisDrone2019 dataset, GOIS-Det improved mAP@0.50:0.95 from 0.12 (FI-Det) to 0.33 (+175%) on YOLO11 and from 0.18 to 0.38 (+111.10%) on YOLOv5n. Fine-tuning further enhanced AP-Small by 278.66% and AR-Small by 279.22%, confirming GOIS’s adaptability across diverse deployment scenarios. Additionally, GOIS reduced false positives by 40%–60%, improving real-world detection reliability. Ablation studies validate GOIS’s hierarchical slicing and parameter optimization, with 640-pixel coarse slices and 256-pixel fine slices achieving an optimal balance between accuracy and efficiency. As the first open-source TOD slicing framework on Hugging Face Apps and Google Colab, GOIS delivers real-time inference, open-source code, and live demonstrations, establishing itself as a breakthrough in object detection. The code and results are publicly available at https://github.com/MMUZAMMUL/GOIS with a live demoe at https://youtu.be/ukWUfXBFZ5I.}
-}
-
-```
-![Graphical Abstract](https://github.com/MMUZAMMUL/GOIS/raw/main/data/GA-.jpg)
+![Graphical Abstract](data/GA-.jpg)
 ### 📥 Quick Start
 | **Step** | **Command** |
 |----------|------------|
-| **1️⃣ Clone Repo** | `git clone https://github.com/MMUZAMMUL/GOIS.git && cd GOIS` |
+| **1️⃣ Clone Repo** | `https://github.com/codiworkerss/GOIS_Code.git && cd GOIS_Code` |
 | **2️⃣ Download Data** | Follow [Dataset Instructions](data/dataset.md) or [Download 15% Dataset](https://drive.google.com/drive/folders/12rsLCoPL_7w_oGKurWoDJ8gH1yQ77KJh?usp=drive_link) |
 | **3️⃣ Download Models** | `cd Models && python download_models.py` |
 | **4️⃣ Generate Ground Truth** | `python scripts/generate_ground_truth.py --annotations_folder "<annotations_path>" --images_folder "<images_path>" --output_coco_path "./data/ground_truth/ground_truth_coco.json"` |
@@ -41,12 +21,7 @@ abstract = {Tiny Object Detection (TOD) in UAV and standard imaging remains chal
 
 ---
 
-### 📊 Test GOIS Benchmarks & Gradio Live Deployement
-📂 [GOIS Benchmarks Repository](https://github.com/MMUZAMMUL/TinyObjectDetection-GOIS)  
-🎥 [Watch Live Demo (YouTube)](https://youtu.be/ukWUfXBFZ5I) | 🎥 [Watch Live Demo (Bilibili)](https://www.bilibili.com/video/BV1sLKjebEQK/?vd_source=f4edde9395a4d640571ae4487880e1ce)  
-
 🔑 **MIT License** - Study & Educational Use Only  
-📧 **Contact**: *[Author Email](mailto:muzamal@zju.edu.cn)*  
 
 # 🚀 GOIS Live Deployed Applications on Gradio ✅  
 
