@@ -115,9 +115,6 @@ GOIS integrates a **two-stage hierarchical slicing strategy**, dynamically adjus
 [GOIS Benchmarks Repository](https://github.com/MMUZAMMUL/TinyObjectDetectionGOIS-Benchmarks)
 
 
-### **Cite This Work**
-If you use GOIS in your research, please consider citing our paper:
-
 
 
 
